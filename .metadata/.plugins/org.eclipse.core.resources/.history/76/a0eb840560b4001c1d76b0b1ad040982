@@ -1,0 +1,23 @@
+package com.luv2code.springdemo;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class RandomFortuneService implements FortuneService {
+
+	// create an array
+	private String[] data = {
+			"Beware of the wolf in sheep clothing",
+			"Diligence is the mother of good luck",
+			"The journey is the reward"
+	};
+	
+	//create a random number generator
+	private Random myRandom = new Random();
+	@Override
+	public String getFortune() {
+		// Pick a random string from the array
+		return null;
+	}
+
+}

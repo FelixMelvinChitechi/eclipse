@@ -1,0 +1,14 @@
+package com.luv2code.springdemo;
+
+public class AnnotationsBeanScopeDemoApp {
+
+	public static void main(String[] args) {
+		// load spring config file
+		
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+		
+		//retrieve the bean from the spring container
+
+	}
+
+}

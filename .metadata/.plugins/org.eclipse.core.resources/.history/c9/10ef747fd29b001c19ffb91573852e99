@@ -1,0 +1,32 @@
+package com.luv2code.springdemo;
+
+import java.util.logging.Level;
+
+public class myLoggerConfig {
+	
+	private String rootLoggerLevel;
+	private String printedLoggerLevel;
+	
+	public void setRootLoggerLevel(String rootLoggerLevel) {
+		this.rootLoggerLevel = rootLoggerLevel;
+		
+	}
+	public void setPrintedLoggerLevel(String printedLoggerLevel) {
+		this.printedLoggerLevel = printedLoggerLevel;
+	}
+	
+	public void initLogger() {
+		
+		//parse levels
+		
+		Level rootLevel = Level.parse(rootLoggerLevel);
+		Level printedLevel = Level.parse(printedLoggerLevel);
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
